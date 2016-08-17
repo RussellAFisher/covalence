@@ -19,10 +19,11 @@ import {
 var changedData = firebase.database().ref('projects');
 changedData.on('value', function(pulledData) {
     atom.workspace.observeTextEditors(function(editor) {
-        editor.setTextInBufferRange([
-            [0, 0],
-            [0, 0]
-        ], pulledData.val().pageData);
+        // editor.setTextInBufferRange([
+        //     [0, 0],
+        //     [0, 0]
+        // ], pulledData.val().pageData);
+        editor.setText(pulledData.val().pageData);
     });
 });
 
