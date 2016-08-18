@@ -5,7 +5,9 @@
   "description": "",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "covalence:toggle"
+    "atom-workspace": "covalence:toggle",
+    "atom-workspace": "covalence:newSession",
+    "atom-workspace": "covalence:authentication"
   },
   "repository": "https://github.com/Covalence-g25/covalence",
   "homepage": "https://github.com/Covalence-g25/covalence#readme",

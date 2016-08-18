@@ -1,5 +1,7 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "covalence:toggle"
+    "ctrl-alt-o": "covalence:toggle",
+    "ctrl-alt-s": "covalence:newSession",
+    "ctrl-alt-a": "covalence:authentication"
   }
 }

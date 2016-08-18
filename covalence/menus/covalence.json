@@ -4,6 +4,14 @@
       {
         "label": "Toggle covalence",
         "command": "covalence:toggle"
+      },
+      {
+        "label": "Start new session",
+        "command": "covalence:newSession"
+      },
+      {
+        "label": "Log in with Google",
+        "command": "covalence:authentication"
       }
     ]
   },
@@ -17,6 +25,14 @@
             {
               "label": "Toggle",
               "command": "covalence:toggle"
+            },
+            {
+              "label": "Start New Session",
+              "command": "covalence:newSession"
+            },
+            {
+              "label": "Log in with Google",
+              "command": "covalence:authentication"
             }
           ]
         }
